@@ -76,8 +76,8 @@ CREATE TABLE IF NOT EXISTS `onlineshopdb`.`Customer` (
   INDEX `fk_Customer_OrderItem1_idx` (`OrderItem_orderID` ASC) ,
   INDEX `fk_Customer_ShoppingCart1_idx` (`ShoppingCart_cartID` ASC) ,
   CONSTRAINT `fk_Customer_OrderItem1`
-    FOREIGN KEY (`OrderCustomer_orderID`)
-    REFERENCES `onlineshopdb`.`OrderCustomer` (`orderID`)
+    FOREIGN KEY (`OrderItem_orderID`)
+    REFERENCES `onlineshopdb`.`OrderItem` (`orderID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Customer_ShoppingCart1`

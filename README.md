@@ -17,5 +17,5 @@ email: nasyrov289@gmail.com
 ```
 ## Created
 ```
-Monday, 1 Jule, 2019, 17:04 pm
+Monday, 1 Jule, 2019, 17:04
 ```
